@@ -18,7 +18,7 @@ public class FirstServlet extends HttpServlet {
    private static final Logger LOG = getLogger(FirstServlet.class);
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      LOG.debug("redirect to userList");
+      LOG.debug("redirect to userList1");
 
 //        request.getRequestDispatcher("/userList.jsp").forward(request, response);
         response.sendRedirect("index2.jsp");
